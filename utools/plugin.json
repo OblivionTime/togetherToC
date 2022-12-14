@@ -1,0 +1,34 @@
+{
+    "main": "./main/index.html",
+    "preload": "./preload/index.js",
+    "logo": "./logo.png",
+    "features": [
+        {
+            "code": "TOGETHERTOC",
+            "explain": "TOGETHERTOC",
+            "cmds": [
+                "局域网聊天",
+                "一起聊",
+                "chat",
+                "CT",
+                "聊天",
+                "共享",
+                "文件共享",
+                "局域网",
+                {
+                    "type": "over",
+                    "label": "发送文字",
+                    "exclude": "/xxx/",
+                    "minLength": 1,
+                    "maxLength": 500
+                },
+                {
+                    "type": "files",
+                    "label": "发送文件",
+                    "fileType": "file",
+                    "minLength": 1
+                }
+            ]
+        }
+    ]
+}
